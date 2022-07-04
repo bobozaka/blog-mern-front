@@ -126,8 +126,6 @@ export const AddPost = () => {
       <br />
       <br />
       <TextField
-        value={fields.title}
-        onChange={(e) => setFieldValue('title', e.target.value)}
         classes={{ root: styles.title }}
         variant="standard"
         placeholder="Заголовок статьи..."
